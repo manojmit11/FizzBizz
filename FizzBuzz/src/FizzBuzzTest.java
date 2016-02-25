@@ -40,7 +40,7 @@ public class FizzBuzzTest {
 	
 		assertEquals("Buzz", fizzBuzz.fizz(5));
 		assertEquals("Buzz", fizzBuzz.fizz(5));
-		
+	
 	}
 	
 	@Test
@@ -49,7 +49,6 @@ public class FizzBuzzTest {
 		assertEquals("FizzBuzz", fizzBuzz.fizz(15));
 		assertEquals("FizzBuzz", fizzBuzz.fizz(30));
 
-		
 	}
 	
 	
