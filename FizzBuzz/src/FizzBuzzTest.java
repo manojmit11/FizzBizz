@@ -19,6 +19,14 @@ public class FizzBuzzTest {
 		
 	}
 	
+	@Test
+	public void whenFizzBuzzIsPassedAMultipleOfThreeItReturnsThree(){
+		
+		FizzBuzz fizzBuzz= new FizzBuzz();
+		assertEquals("Fizz", fizzBuzz.fizz(3));
+		assertEquals("Fizz", fizzBuzz.fizz(6));
+	}
+	
 	
 
 }

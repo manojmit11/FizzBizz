@@ -3,7 +3,10 @@ public class FizzBuzz {
 
 	public String fizz(Integer inputNumber) {
 		
-		return "1";
+		if(inputNumber%3==0){
+			return "Fizz";
+		}
+		return inputNumber.toString();
 	}
 
 }
