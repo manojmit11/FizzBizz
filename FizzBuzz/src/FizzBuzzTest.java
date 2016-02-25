@@ -20,11 +20,19 @@ public class FizzBuzzTest {
 	}
 	
 	@Test
-	public void whenFizzBuzzIsPassedAMultipleOfThreeItReturnsThree(){
+	public void whenFizzBuzzIsPassedAMultipleOfThreeItReturnsFizz(){
 		
 		FizzBuzz fizzBuzz= new FizzBuzz();
 		assertEquals("Fizz", fizzBuzz.fizz(3));
 		assertEquals("Fizz", fizzBuzz.fizz(6));
+	}
+	
+	@Test
+	public void whenFizzBuzzisPassesMultipleofFiveItReturnsBuzz(){
+		FizzBuzz fizzBuzz= new FizzBuzz();
+		assertEquals("Buzz", fizzBuzz.fizz(5));
+		assertEquals("Buzz", fizzBuzz.fizz(5));
+		
 	}
 	
 	
